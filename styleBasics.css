@@ -1,16 +1,1 @@
-.parent{
-    display: flex;
-    flex-flow: column;
-    width: 20%;
-    height: 150px;
-    justify-content: space-between;
-}
-button{
-    width: 35%;
-}
-input{
-    height: 20%;
-}
-#result{
-    color: red;
-}
+/* comment */
