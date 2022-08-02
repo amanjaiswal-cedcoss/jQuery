@@ -1,13 +1,16 @@
 .parent{
-    width: 90%;
-    margin: 1% auto ;
     display: flex;
+    flex-flow: column;
+    width: 20%;
+    height: 150px;
     justify-content: space-between;
-    height: 50px;
-
+}
+button{
+    width: 35%;
 }
 input{
-    width: 23%;
-
+    height: 20%;
 }
-/* comment */
+#result{
+    color: red;
+}
