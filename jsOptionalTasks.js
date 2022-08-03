@@ -1,4 +1,6 @@
 $(document).ready(function(){
     
-$("body").append("<div id='days' name ='days'><h1>Monday</h1><h2>Tuesday</h2><h3>Wednesday</h3></div>")
+$("body").on("click","#btn",(function(){
+   alert($("ul").children().eq(0).text())
+}))
 });
