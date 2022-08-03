@@ -1,9 +1,25 @@
-$(document).ready(function () {
-  $("body").on("click","#add",(function () {
-   $("body").append("<div class='parent'><input type='text' placeholder='Enter Class'/><input type='text' placeholder='Enter Board'/><input type='text' placeholder='Enter Marks'/><input type='text' placeholder='Enter Division'/><button id='add'>+</button><button id='remove'>-</button></div>")
-  }));
-  $("body").on("click","#remove",(function () {
-      $(this).parent().remove();
-    }));
-  
+
+$(document).ready(function(){
+  $flag=0;
+  $("#btnSubmit").click(function () {
+   
+    if($("#first").val()==""){
+      $("#first").focus();
+      $("#first").css("background-color","red")
+     $flag=1; 
+      alert("Please enter first name")
+    }
+     
+     if($("#last").val()==""){
+     $("#last").css("background-color","red")
+      alert("Please enter last name")
+      if($flag==0){
+        $("#last").focus();
+      }
+      else{
+        $("#first").focus();
+      }
+    }
+  });
+     
 });

@@ -1,12 +1,10 @@
-.parent{
-    width: 90%;
-    margin: 1% auto ;
+#parent{
     display: flex;
-    justify-content: space-between;
-    height: 50px;
-
+    flex-flow: column;
+    width: 10%;
+    height: 120px;
+    justify-content: space-between ;
 }
-input{
-    width: 23%;
-
+button{
+    width: 50%;
 }
