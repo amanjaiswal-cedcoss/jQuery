@@ -1,24 +1,10 @@
-images=["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
-var i=2;
-$(document).ready(function(){
-  $("#prev").click(function(){
-    if(i>0){
-      i--;
-   $("img").attr("src",images[i])
-  }
-  else{
-    i=0;
-  }
-   })
-$("#next").click(function(){
-  if(i<4){
-    i++;
- $("img").attr("src",images[i])
-}
-else{
-  i+4;
-}
-})
+$(document).ready(function(){ 
+  $("#parent").on("click","#btnCategory",(function () {
+     $("#categories").append("<li>New Category<button id='btnCategory'>+</button></li>");
+    }));
+    $("#parent").on("click","#btnProducts",(function () {
+      $(this).parent().parent().append("<li>New Product<button id='btnProducts'>+</button></li>")
+       }));
+
 
 });
-// comment
