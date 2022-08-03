@@ -1,15 +1,23 @@
-flowers=["Lily","Rose","Lotus","Daffodils","Mariegold","Sunflower"];
+images=["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
+var i=2;
 $(document).ready(function(){
-  $("#flower").keyup(function(){
-    $matched="";
-  for(i=0;i<flowers.length;i++){
-    $item=$("#flower").val();
-    $match=flowers[i].substring(0,$item.length)
-    if($item==$match){
-      $matched+=" "+flowers[i];
-      }
+  $("#prev").click(function(){
+    if(i>0){
+      i--;
+   $("img").attr("src",images[i])
+  }
+  else{
+    i=0;
+  }
+   })
+$("#next").click(function(){
+  if(i<4){
+    i++;
+ $("img").attr("src",images[i])
 }
-$("#suggestions").html("Suggestions : "+$matched);
+else{
+  i+4;
+}
 })
 
 });
