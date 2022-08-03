@@ -1,3 +1,3 @@
 $(document).ready(function(){
-$("div").children("h1").css("background-color","red")
+$("body").css("background-color","red")
 });
