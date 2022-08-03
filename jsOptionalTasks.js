@@ -1,6 +1,9 @@
 $(document).ready(function(){
     
-$("#selNumber").change(function(){
-   alert($(":selected").text())
-})
+$("body").on("click","#btn",(function(){
+   if($("#check").is(':checked')){
+   $("#check").attr("checked",false)}
+   else{
+   $("#check").attr("checked",true)}
+}))
 });
