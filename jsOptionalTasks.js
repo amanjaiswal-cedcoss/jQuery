@@ -1,3 +1,6 @@
 $(document).ready(function(){
-$("form input").hide();
+    
+$("#selNumber").change(function(){
+   alert($(":selected").text())
+})
 });
