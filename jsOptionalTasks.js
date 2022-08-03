@@ -1,4 +1,7 @@
 $(document).ready(function(){
-   $("p").hide("slow");
+   $("p").toggle(
+   function(){$("p").animate({opacity:"0.5"},500)},
+   // function(){$("p").hide(500)}
+   );
 
 });
