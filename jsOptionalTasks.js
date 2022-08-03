@@ -1,4 +1,4 @@
 $(document).ready(function(){
-   $("#para_id").addClass("myClass")
+   $("#parent").animate({height: '150px', width: '150px'});
 
 });
