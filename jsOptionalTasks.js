@@ -1,9 +1,4 @@
 $(document).ready(function(){
     
-$("body").on("click","#btn",(function(){
-   if($("#check").is(':checked')){
-   $("#check").attr("checked",false)}
-   else{
-   $("#check").attr("checked",true)}
-}))
+$("body").append("<div id='days' name ='days'><h1>Monday</h1><h2>Tuesday</h2><h3>Wednesday</h3></div>")
 });
