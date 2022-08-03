@@ -1,1 +1,15 @@
-/* comment */
+#parent{
+    height: 250px;
+}
+#detailsTable{
+    width: 35%;
+    font-size: larger;
+    text-align: left;
+    height: 100%;
+}
+.blue{
+    background-color: dodgerblue;
+}
+.lightgrey{
+    background-color: lightgrey;
+}
