@@ -1,0 +1,37 @@
+#productsTable{
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 2% 0%;
+}
+#searchTable{
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    margin: 2% 0%;
+}
+#selects{
+    margin-left: 14%;
+}
+#divSearch{
+    margin-left: 16%;
+}
+#inpSearch{
+    height: 25px;
+}
+#btnSearch{
+    height: 31px;
+}
+select{
+    width: 12%;
+    height: 25px;
+}
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#rowToggle:hover{
+    cursor: grab;
+}

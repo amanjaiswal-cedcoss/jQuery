@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styleFilSel.css" />
+    <title>Filters & Selectors</title>
+  </head>
+  <body>
+    <div id="selects">
+    <select id="selCategory">
+      <option>--Sort By--</option>
+      <option>Operating System</option>
+      <option>Brand</option></select>
+    <select id="selOrder">
+        <option >--Sort Order--</option>
+        <option >Ascending</option>
+        <option >Descending</option>
+    </select></div>
+    <table id="productsTable"></table>
+     <div id="divSearch"><input type="text" id="inpSearch" placeholder="Search by Id or Name"> <button id="btnSearch">Search</button></div>
+     <table id="searchTable"></table>  
+     <script src="jsFilSel.js"></script>
+  </body>
+</html>
