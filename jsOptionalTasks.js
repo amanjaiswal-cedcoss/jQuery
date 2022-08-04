@@ -1,7 +1,8 @@
-$(document).ready(function(){
-   $("p").toggle(
-   function(){$("p").animate({opacity:"0.5"},500)},
-   // function(){$("p").hide(500)}
-   );
-
+$(document).ready(function () {
+  $("#btnToggle").click(function(){
+  $("div").toggle(
+    function () {
+      $("div").animate({ height: "500px" }, 500);
+    }
+  )})
 });
