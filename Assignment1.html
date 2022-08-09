@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleAssignment1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Optional Assignment 1</title>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="date"></div>
+      <div id="time">
+        <p id="hour"></p>
+        :
+        <p id="minute"></p>
+        :
+        <p id="second"></p>
+        <p id="ampm"></p>
+      </div>
+    </div>
+    <div id="setTimeDate">
+      <input type="number" placeholder="HH" max="12" class="inp" id="inpHours" />
+      <input type="number" placeholder="MM" max="59" class="inp" id="inpMinutes" />
+      <input type="number" placeholder="SS" max="59" class="inp" id="inpSeconds" />
+      <select id="selAMPM">
+        <option>AM</option>
+        <option>PM</option>
+      </select>
+      <input type="number" placeholder="DD"   id="inpDay"/>
+      <input type="number" placeholder="MM"   id="inpMonth"/>
+      <input type="number" placeholder="YYYY" id="inpYear" style="width: 6%;"/>
+      <button id="btnSet">Set Time And Date</button>
+       <p id="errorTime"></p>
+       <p id="errorDate"></p>
+    </div>
+    <div id="stopwatch">
+      <p id="stopHour">00</p>
+      :
+      <p id="stopMinute">00</p>
+      :
+      <p id="stopSecond">00</p>:
+      <p  id="stopMilisecond">00</p>
+     </div>
+     <div id="stopwatchBtn">
+      <button id="btnStopwatch">Start</button></div>
+    <script src="jsAssignment1.js"></script>
+  </body>
+</html>
