@@ -1,0 +1,123 @@
+#divProducts{
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+.products{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+div img{
+    height: 92%;
+    width: 240px;
+    margin: 1% 1%;
+    box-shadow: 0px 2px #e3e3e3;
+}
+.image{
+    height: 100%;
+}
+.details{
+    height: 95%;
+    padding: 2%;
+}
+.details h2{
+    color: #30a3a3;
+}
+#paraDetails{
+    box-shadow: 0px 2px #e3e3e3;
+}
+.butPri{
+    display: flex;
+    height: 25%;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 2px #e3e3e3;
+}
+.inpQuantity{
+    height: 31px;
+    border: none;
+    width: 7%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+#inpQuantity:focus{
+    outline-offset: 0px;
+    outline: none;
+}
+.buttons p{
+    margin: 0% 2%;
+    font-size: 18px;
+    font-weight: 600;
+    height: 100%;
+}
+.butPri button{
+    border: 0px;
+    background-color: rgb(227 241 243);
+    height: 100%;
+    font-size: xx-large;
+    width: 10%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.prices{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    height: 70%;
+    align-items: center;
+}
+.prices p{
+    margin: 0% 2%;
+    font-size: 18px;
+    height: 100%;
+    text-align: center;
+}
+#price{
+    margin-top: 20px;
+}
+#totalPrice{
+    background-color: #30a3a3;
+    font-size: 24px;
+    color: white;
+    width: 55%;
+    padding-top:10px;
+}
+#divPrice{
+    display: flex;
+    justify-content: space-between;
+}
+#paraSubtotal{
+    font-size: 20px;
+}
+#paraTaxes,#paraShipping{
+    font-size: 17px;
+}
+#total{
+    width: 15%;
+}
+#paraTotal{
+    font-size: 20px;
+    text-align: center;
+    height: 40%;
+    box-shadow: 0px 2px #e3e3e3;
+    background-color: rgb(227 241 243);
+    margin: 5% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btnCheckout{
+    background-color: #30a3a3;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    height: 35%;
+    border: none;
+}
