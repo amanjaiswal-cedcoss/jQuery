@@ -10,7 +10,8 @@ function $populate() {
 }
 $("input").click(function(){
   $check($(this));
-  console.log($(this).attr("id"))
+  console.log($id=$(this).attr("id"))
+  $("#"+$id).attr("disabled","disabled");
 }) 
 function $check(args) {
   $evod++;
@@ -55,6 +56,6 @@ $("#btnReset").click(function(){
   
 })
 
-
+// comment
 
 })
