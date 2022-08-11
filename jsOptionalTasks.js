@@ -2,19 +2,9 @@ $(document).ready(function () {
   $arrAttributes=[]
   $("#btnChangeClass").click(function(){
     $getAttributes(); 
-    $changeClass();
+    $("h1:not(.bingo)").replaceWith("<h2>"+$("h1").html()+"</h2>");
     $("#btnChangeClass").attr("disabled","disabled")
   })
-  function $changeClass(){
-    $arr=$("body").find("h1")
-       for(i=0;i<$arr.length;i++){
-       
-      if($($arr[i]).attr("class")!="bingo"){
-        $txt=$($arr[i]).html()
-        $($arr[i]).replaceWith("<h2>"+$txt+"</h2>");
-      }
-      }
-  }
   function $getAttributes() {
     $("h1").each(function(j) {
         arrObj=[];
