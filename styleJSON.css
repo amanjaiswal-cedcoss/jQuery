@@ -3,3 +3,7 @@ select{
     height: 30px;
     margin: 1% 0;
 }
+#tabSessions{
+    text-align: left;
+    width: 100%;
+}
