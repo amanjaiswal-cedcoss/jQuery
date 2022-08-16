@@ -1,0 +1,22 @@
+h3{
+    margin-left: 30%;
+}
+#credentials{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+#credentials div{
+    display: flex;
+}
+#btnSubmit{
+    margin: 1% 40%;
+    width: 50%;
+}
+th{
+    text-align: left;
+}
+table,td,th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
