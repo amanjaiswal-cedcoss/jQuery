@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  $arrAttributes=[]
   $("#btnChangeClass").click(function(){
     $getAttributes(); 
     $("h1:not(.bingo)").replaceWith("<h2>"+$("h1").html()+"</h2>");
@@ -18,7 +17,6 @@ $(document).ready(function () {
           $("#divDisp").append("<p>"+arrObj[i].id+"."+arrObj[i].name+":"+arrObj[i].value+"</p>")
           }
     })
-console.log($arrAttributes)
 
 }
 
